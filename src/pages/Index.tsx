@@ -51,20 +51,66 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-sm shadow-lg">
+        <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between py-3 border-b border-white/10">
+            <div className="flex items-center gap-3">
+              <img 
+                src="https://cdn.poehali.dev/projects/0ef760dc-6cc5-49e2-9400-9dd830dad74c/bucket/848e3cdb-e899-4c8e-89cb-7a7e0c6e46d2.png" 
+                alt="ГОСАВТОШКОЛА" 
+                className="h-12"
+              />
+            </div>
+            
+            <div className="hidden md:flex items-center gap-6 text-white text-sm">
+              <div className="flex items-center gap-2">
+                <Icon name="Clock" size={16} className="text-accent" />
+                <div>
+                  <div>Пн-Пт: 10:00-18:30</div>
+                  <div className="text-xs text-gray-300">Обед: 13:30-14:00</div>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-2">
+                <Icon name="Phone" size={16} className="text-accent" />
+                <a href="tel:+79789937015" className="hover:text-accent transition-colors font-semibold text-lg">
+                  +7 (978) 993 70 15
+                </a>
+              </div>
+              
+              <Button 
+                className="bg-accent hover:bg-accent/90 text-white font-semibold"
+                onClick={scrollToForm}
+              >
+                ЗАПИСАТЬСЯ НА ОБУЧЕНИЕ
+              </Button>
+            </div>
+          </div>
+          
+          <nav className="flex items-center gap-8 py-4 text-white overflow-x-auto">
+            <a href="https://автошкола92.рф/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors whitespace-nowrap font-medium">
+              Главная
+            </a>
+            <a href="https://автошкола92.рф/o-gosavtoshkole/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors whitespace-nowrap font-medium">
+              О ГОСавтошколе
+            </a>
+            <a href="https://автошкола92.рф/aktsii/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors whitespace-nowrap font-medium">
+              Спецпредложения
+            </a>
+            <a href="https://автошкола92.рф/raspisanie/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors whitespace-nowrap font-medium">
+              Расписание
+            </a>
+          </nav>
+        </div>
+      </header>
+
       <section 
-        className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
+        className="relative min-h-screen flex items-center justify-center bg-cover bg-center pt-32"
         style={{
           backgroundImage: `linear-gradient(rgba(66, 63, 48, 0.85), rgba(45, 48, 38, 0.85)), url('https://cdn.poehali.dev/projects/0ef760dc-6cc5-49e2-9400-9dd830dad74c/files/4f46b67b-2366-47a2-8f2e-ef67edc45e15.jpg')`
         }}
       >
         <div className="container mx-auto px-4 text-center text-white">
-          <div className="mb-8 flex justify-center">
-            <img 
-              src="https://cdn.poehali.dev/projects/0ef760dc-6cc5-49e2-9400-9dd830dad74c/bucket/848e3cdb-e899-4c8e-89cb-7a7e0c6e46d2.png" 
-              alt="ГОСАВТОШКОЛА" 
-              className="h-32 md:h-40"
-            />
-          </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Ваши преимущества – <br/>наш вклад в Победу
           </h1>
