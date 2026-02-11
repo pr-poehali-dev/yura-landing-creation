@@ -349,21 +349,22 @@ const Index = () => {
 
       <section className="py-16 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Контакты</h2>
+          <h2 className="text-3xl font-bold mb-6">Связаться с нами</h2>
           <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
             <div className="flex items-center gap-3">
               <Icon name="Phone" size={24} className="text-accent" />
-              <span className="text-lg">+7 (XXX) XXX-XX-XX</span>
+              <span className="text-lg">+7 978 993 70 15</span>
             </div>
             <div className="flex items-center gap-3">
               <Icon name="Mail" size={24} className="text-accent" />
-              <span className="text-lg">info@gosavtoshkola.ru</span>
+              <span className="text-lg">9921111@mail.ru</span>
             </div>
             <div className="flex items-center gap-3">
-              <Icon name="MapPin" size={24} className="text-accent" />
-              <a href="#" className="text-lg hover:text-accent transition-colors">
-                Наши филиалы
-              </a>
+              <Icon name="Clock" size={24} className="text-accent" />
+              <div className="text-left">
+                <div className="text-lg">Пн-Пт: 10:00-18:30</div>
+                <div className="text-sm text-gray-300">Обед: 13:30-14:00</div>
+              </div>
             </div>
           </div>
           <div className="mt-8">
