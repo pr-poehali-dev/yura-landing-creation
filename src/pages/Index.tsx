@@ -174,7 +174,7 @@ const Index = () => {
                 className="w-full h-48 object-cover"
               />
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-primary">Лицензированные инструкторы</h3>
+                <h3 className="text-xl font-bold mb-2 text-primary">Аккредитованные инструкторы</h3>
                 <p className="text-gray-600">Опыт работы от 10 лет, профессиональный подход</p>
               </CardContent>
             </Card>
@@ -335,7 +335,7 @@ const Index = () => {
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-primary">СКОРОСТЬ</h3>
-                <p className="text-gray-700 font-semibold mb-2">Обучение за 2 месяца</p>
+                <p className="text-gray-700 font-semibold mb-2">Обучение от 2х месяцев</p>
                 <p className="text-gray-600">Возможность ускоренного получения прав</p>
               </CardContent>
             </Card>
