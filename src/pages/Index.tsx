@@ -127,6 +127,200 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center mb-12">
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-primary">
+              Участники СВО и члены их семей!
+            </h2>
+            <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+              Получите водительское удостоверение в лучшей автошколе Севастополя и Республики Крым. 
+              Обучаем быстро, качественно, с индивидуальным подходом. Работаем официально.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <p className="text-accent font-bold text-lg mb-2">О НАС</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
+              Лидеры автомобильного образования Крыма
+            </h2>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
+              ГОСавтошкола — это не просто имя, это знак качества. Мы единственная автошкола в регионе, 
+              которая гарантирует высокий процент сдачи экзаменов с первого раза.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+            <Card className="overflow-hidden hover:shadow-xl transition-shadow">
+              <img 
+                src="https://cdn.poehali.dev/projects/0ef760dc-6cc5-49e2-9400-9dd830dad74c/files/e2126c3e-715c-4e9e-a077-13528577005c.jpg" 
+                alt="Современный автопарк" 
+                className="w-full h-48 object-cover"
+              />
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold mb-2 text-primary">Современный автопарк</h3>
+                <p className="text-gray-600">Автомобили с автоматической и механической коробкой передач</p>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden hover:shadow-xl transition-shadow">
+              <img 
+                src="https://cdn.poehali.dev/projects/0ef760dc-6cc5-49e2-9400-9dd830dad74c/files/c7ff6b14-7805-4c69-809c-550c51fd0f21.jpg" 
+                alt="Лицензированные инструкторы" 
+                className="w-full h-48 object-cover"
+              />
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold mb-2 text-primary">Лицензированные инструкторы</h3>
+                <p className="text-gray-600">Опыт работы от 10 лет, профессиональный подход</p>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden hover:shadow-xl transition-shadow">
+              <img 
+                src="https://cdn.poehali.dev/projects/0ef760dc-6cc5-49e2-9400-9dd830dad74c/files/53f355a0-eccf-4668-a313-8c3284722185.jpg" 
+                alt="Удобные филиалы" 
+                className="w-full h-48 object-cover"
+              />
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold mb-2 text-primary">Удобные филиалы</h3>
+                <p className="text-gray-600">По Симферополю и Севастополю — выбирайте ближайший</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-primary text-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <p className="text-accent font-bold text-lg mb-2">ПОЧЕМУ МЫ?</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              3 причины, почему участники СВО выбирают нас
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+            <div className="text-center">
+              <div className="mb-6 flex justify-center">
+                <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center">
+                  <Icon name="Zap" size={40} className="text-white" />
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold mb-4">СКОРОСТЬ</h3>
+              <p className="text-gray-200 leading-relaxed">
+                Сжатые сроки обучения. Вам не нужно ждать — мы формируем группы под ваш график. 
+                Сдадите экзамен в ГИБДД без очередей и волокиты.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="mb-6 flex justify-center">
+                <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center">
+                  <Icon name="Award" size={40} className="text-white" />
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold mb-4">СТАВКА НА КАЧЕСТВО</h3>
+              <p className="text-gray-200 leading-relaxed">
+                Никакой «воды». Только актуальные правила, закрытые площадки и отработка реальных 
+                городских маршрутов Симферополя и Севастополя.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="mb-6 flex justify-center">
+                <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center">
+                  <Icon name="Users" size={40} className="text-white" />
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold mb-4">ЗАБОТА О СЕМЬЕ</h3>
+              <p className="text-gray-200 leading-relaxed">
+                Ваши родители, супруги и дети могут пройти курс на особых условиях. 
+                Вместе учиться — выгодно.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <p className="text-accent font-bold text-lg mb-2">ЧТО МЫ ПРЕДЛАГАЕМ?</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-8">
+              Полный спектр услуг для будущих водителей
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
+            <Card className="hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Icon name="Car" size={24} className="text-accent" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2 text-primary">Категория «B» (МКПП/АКПП)</h3>
+                    <p className="text-gray-600">Самая популярная категория для города</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Icon name="Bike" size={24} className="text-accent" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2 text-primary">Категория «A» (мотоциклы)</h3>
+                    <p className="text-gray-600">Свобода передвижения на двух колёсах</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Icon name="RefreshCw" size={24} className="text-accent" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2 text-primary">Переподготовка</h3>
+                    <p className="text-gray-600">С «B» на «C», с «C» на «B» и другие категории в короткие сроки</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Icon name="RotateCcw" size={24} className="text-accent" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2 text-primary">Восстановление навыков</h3>
+                    <p className="text-gray-600">Если права были, но потеряли уверенность за рулем — мы поможем</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="bg-accent/10 border-l-4 border-accent p-6 rounded-lg max-w-4xl mx-auto">
+            <p className="text-lg text-gray-700 font-semibold">
+              Мы предоставляем учебные автомобили с дублирующими педалями, соответствующие всем нормам безопасности.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-primary">
