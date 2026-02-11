@@ -157,7 +157,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <img 
-                src="https://cdn.poehali.dev/projects/0ef760dc-6cc5-49e2-9400-9dd830dad74c/files/e2126c3e-715c-4e9e-a077-13528577005c.jpg" 
+                src="https://cdn.poehali.dev/files/e5f3910b-fac3-458b-8226-68a36f420325.jpg" 
                 alt="Современный автопарк" 
                 className="w-full h-48 object-cover"
               />
@@ -169,7 +169,7 @@ const Index = () => {
 
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <img 
-                src="https://cdn.poehali.dev/projects/0ef760dc-6cc5-49e2-9400-9dd830dad74c/files/c7ff6b14-7805-4c69-809c-550c51fd0f21.jpg" 
+                src="https://cdn.poehali.dev/files/2de10932-52b9-4f0e-aea8-7618fab2fc93.jpg" 
                 alt="Лицензированные инструкторы" 
                 className="w-full h-48 object-cover"
               />
@@ -181,7 +181,7 @@ const Index = () => {
 
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <img 
-                src="https://cdn.poehali.dev/projects/0ef760dc-6cc5-49e2-9400-9dd830dad74c/files/53f355a0-eccf-4668-a313-8c3284722185.jpg" 
+                src="https://cdn.poehali.dev/files/9479273d-ea11-4d64-be66-503c1cb1f547.jpeg" 
                 alt="Удобные филиалы" 
                 className="w-full h-48 object-cover"
               />
