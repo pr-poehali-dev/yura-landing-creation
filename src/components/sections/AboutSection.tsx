@@ -4,9 +4,9 @@ import Icon from "@/components/ui/icon";
 const AboutSection = () => {
   return (
     <>
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 pb-8 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center mb-12">
+          <div className="max-w-4xl mx-auto text-center mb-0">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-primary">
               Участники СВО и члены их семей!
             </h2>
@@ -18,10 +18,9 @@ const AboutSection = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
+      <section className="pt-8 pb-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <p className="text-accent font-bold text-lg mb-2">О НАС</p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
               Лидеры автомобильного образования Крыма
             </h2>
@@ -74,7 +73,6 @@ const AboutSection = () => {
       <section className="py-20 bg-primary text-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <p className="text-accent font-bold text-lg mb-2">ПОЧЕМУ МЫ?</p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               3 причины, почему участники СВО выбирают нас
             </h2>
@@ -126,7 +124,6 @@ const AboutSection = () => {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <p className="text-accent font-bold text-lg mb-2">ЧТО МЫ ПРЕДЛАГАЕМ?</p>
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-8">
               Полный спектр услуг для будущих водителей
             </h2>
