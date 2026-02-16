@@ -16,6 +16,13 @@ const HeroSection = ({ onEnrollClick }: HeroSectionProps) => {
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
           Ваши преимущества – <br/>наш вклад в Победу
         </h1>
+        <div className="mb-8">
+          <img 
+            src="https://cdn.poehali.dev/projects/0ef760dc-6cc5-49e2-9400-9dd830dad74c/files/13613e6c-bd40-4db4-87b8-1c3f3d7014b6.jpg" 
+            alt="Военнослужащий с семьёй на фоне Севастополя" 
+            className="mx-auto rounded-2xl shadow-2xl max-w-md md:max-w-lg w-full object-cover border-4 border-white/20"
+          />
+        </div>
         <p className="text-xl md:text-2xl mb-10 font-semibold">
           Особые условия для защитников Отечества и их семей
         </p>
